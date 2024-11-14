@@ -1,0 +1,157 @@
+.text-color{
+  color: aliceblue !important;
+}
+
+header{
+  background-image: url(../assets/img/home-bg.jpg);
+  background-color: rgba(0, 0, 0,0.5);
+  background-blend-mode: overlay;
+ height: 80vh;
+ background-position: center;
+ background-size: cover;
+width: 100%;
+}
+.font-s{
+  font-size: 3.5rem !important;
+  font-weight: 400;
+}
+.bg-img{
+  background-image: url(../assets/img/about-bg.jpg);
+}
+.bg-contact{
+  background-image: url(../assets/img/contact-bg.jpg);
+}
+.nav-hover{
+  height: 5rem;
+  
+}
+.sempel-bg-img{
+  background-image: url(../assets/img/post-bg.jpg);
+ min-width: 100%;
+  height: 90vh;
+}
+.line-under{
+color: black;
+text-decoration:underline !important;
+
+}
+.line-under:hover{
+  color: #0085A1;
+}
+
+.nav-scroll{
+  position: fixed;
+  width: 100%;
+  background-color: #ffff;
+  .text-color{
+    color: black !important;
+  }
+}
+.nav-hover a{
+  text-transform: uppercase;
+  padding: 0 2rem;
+}
+.nav-hover a:hover{
+cursor: pointer !important;
+color: rgba(206, 213, 218, 0.779) !important;
+}
+.flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  h1{
+    color: aliceblue;
+    font-size: 5rem;
+  }
+  p{
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.1;
+    display: block;
+    margin-top: 0.625rem;
+  }
+}
+.prev a{
+  text-decoration: none;
+}
+
+.prev .titel,.discription{
+color: black;
+font-weight: 300;
+font-size: 2.25rem;
+}
+.btn-post{
+ background-color: #0085A1;
+ border-style: none;
+ color: aliceblue;
+ font-size: 1.25rem;
+  padding: 0 2rem 2rem 2rem;
+  text-align: center;
+}
+.btn-send{
+  background-color: #0085a1;
+  border-color: #0085a1;
+  border-style: none;
+  color: aliceblue;
+  font-size: 1.25rem;
+   padding: 1rem  2rem;
+   text-align: center;
+}
+input{
+ color: #6c757d;
+  border-top: none;
+ border-left: none;
+ border-right: none;
+ height: 4rem;
+ font-size: 1.25rem;
+}
+textarea{
+  color: #6c757d;
+  height: 12rem !important;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 1.25rem;
+}
+input:focus::placeholder{
+  margin-bottom: 2rem;
+}
+.center-btn{
+  display: flex;
+ 
+  justify-content: end;
+  height: 6vh;
+}
+.pr{
+  padding: 0 2rem;
+  font-size: 3.20rem;
+}
+.prev .font{
+  font-size: 1.25rem;
+  margin: 2rem 0;
+}
+.pr:hover{
+  color: #0085A1;
+}
+.copy h4{
+  font-size: 1rem;
+  color: #6c757d;
+}
+@media screen and (max-width: 780px) {
+ .bg-teal{
+  background-color: teal;
+  width: 100%;
+ }
+ .navbar{
+  padding-top: 0;
+ }
+ .nav-hover {
+  a{
+    padding: 0rem 1rem;
+  }
+  height: 0rem;
+ }
+}
